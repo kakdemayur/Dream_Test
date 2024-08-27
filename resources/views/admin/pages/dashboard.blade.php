@@ -8,10 +8,6 @@
     <span id='ct7' class="page-heading" style="font-size: 25px"></span>
     <p class="fw-medium fs-5 animated-text"> <span>Hello,</span>
         <span class="fw-bold ">{{ auth()->user()->name }}</span>
-        <span>Welcome</span>
-        <span>to</span>
-        <span>HR</span>
-        <span>Platform👋</span>
         <hr>
     </p>
 </div>

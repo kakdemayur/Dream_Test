@@ -49,7 +49,7 @@
                 opacity: 1;
                 transform: translateX(0);
                 /* Stay on-screen */
-                color: rgb(15, 75, 105)15, 15, 105);
+                color: rgb(15, 75, 105)15, 15, 105;
                 /* Change color, adjust as needed */
             }
         }
@@ -95,44 +95,7 @@
             z-index: 99999;
         }
     </style>
-    <script>
-        function display_ct7() {
-                var x = new Date();
-                var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-                var day = days[x.getDay()]; // Get the day of the week
-
-                var ampm = x.getHours() >= 12 ? ' PM' : ' AM';
-                var hours = x.getHours() % 12;
-                hours = hours ? hours : 12;
-                hours = hours.toString().length == 1 ? '0' + hours.toString() : hours;
-
-                var minutes = x.getMinutes().toString();
-                minutes = minutes.length == 1 ? '0' + minutes : minutes;
-
-                var seconds = x.getSeconds().toString();
-                seconds = seconds.length == 1 ? '0' + seconds : seconds;
-
-                var month = (x.getMonth() + 1).toString();
-                month = month.length == 1 ? '0' + month : month;
-
-                var dt = x.getDate().toString();
-                dt = dt.length == 1 ? '0' + dt : dt;
-
-                var dayOfWeekElement = document.getElementById('dayOfWeek');
-                dayOfWeekElement.innerHTML = day; // Display the day of the week in uppercase
-
-                var x1 = month + "-" + dt + "-" + x.getFullYear();
-                x1 = x1 + " - " + hours + ":" + minutes + " " +  ampm;
-                document.getElementById('ct7').innerHTML = x1;
-                display_c7();
-            }
-
-            function display_c7() {
-                var refresh = 1000; // Refresh rate in milliseconds
-                mytime = setTimeout('display_ct7()', refresh);
-            }
-            display_c7();
-    </script>
+   
 </head>
 
 <body>
@@ -172,24 +135,21 @@
             <!-- Section: Social media -->
             <section class="mb-4">
                 <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/akikhossain.abid"
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/dreamsint"
                     role="button"><i class="fab fa-facebook-f"></i></a>
 
                 <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/AKHS87" role="button"><i
+                <a class="btn btn-outline-light btn-floating m-1" href="#" role="button"><i
                         class="fab fa-twitter"></i></a>
 
                 <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/akikwho/"
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/dreamsint/?hl=en"
                     role="button"><i class="fab fa-instagram"></i></a>
 
                 <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/akikhossain/"
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/company/dreamsinternational/"
                     role="button"><i class="fab fa-linkedin-in"></i></a>
 
-                <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/akikhossain" role="button"><i
-                        class="fab fa-github"></i></a>
             </section>
         </div>
         <!-- Grid container -->
@@ -197,7 +157,7 @@
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)" ;>
             Copyright © All Rights Reserved 2024 | Employee Management System |
-            <a class="text-white" href="https://github.com/akikhossain">Akik Hossain</a>
+            <a class="text-white" href="https://github.com/kakdemayur">Mayur kakde</a>
         </div>
     </footer>
 

@@ -202,9 +202,7 @@
 
 
     </ul>
-    @admin
-    <hr>
-    @endadmin
+    
 
     
 

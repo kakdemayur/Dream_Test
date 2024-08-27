@@ -87,8 +87,6 @@
                                         <label class="form-label mt-2 fw-bold" for="salary_structure_id">Total
                                             Salary</label>
                                         <div class="form-outline">
-                                            {{-- <label class="form-label mt-2 fw-bold" for="total_salary">Total
-                                                Salary</label> --}}
                                             <input type="number" id="total_salary" name="total_salary"
                                                 class="form-control" readonly>
                                         </div>

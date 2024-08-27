@@ -13,7 +13,7 @@ class Employee extends Model
 
     public function user()
     {
-        return $this->belongsTo(User::class, 'email', 'email');
+        return $this->belongsTo(User::class, 'user_id', 'id');
     }
 
     public function attendances()
@@ -43,6 +43,6 @@ class Employee extends Model
 
     public function leave()
     {
-        return $this->belongsTo(Leave::class);
+        return $this->belongsTo(Leave::class, 'employee_id', 'id');
     }
 }

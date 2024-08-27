@@ -29,7 +29,7 @@
     <table class="table align-middle text-center  w-75 mx-auto bg-white">
         <thead class="bg-light">
             <tr>
-                <th scope="col">#</th>
+                <th scope="col">Sr.No</th>
                 <th scope="col">Name</th>
                 {{-- <th scope="col">Image</th> --}}
                 <th scope="col">Email</th>

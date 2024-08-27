@@ -23,7 +23,7 @@
     <table class="table align-middle mb-4 text-center  bg-white">
         <thead class="bg-light">
             <tr>
-                <th>#</th>
+                <th>Sr.No</th>
                 <th>Employee Name</th>
                 <th>Department</th>
                 <th>Designation</th>

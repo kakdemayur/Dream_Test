@@ -22,7 +22,7 @@
         <div class="">
             <div class="">
                 <div class="card-header p-4">
-                    <a class="pt-2 d-inline-block" href="" data-abc="true">HR HUB 360</a>
+                    
                     <div class="float-right">
                         <h3 class="mb-0">Employee Attendance Record</h3>
                     </div>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="card-footer bg-dark-light p-1 rounded text-center mt-5">
-                    <p class="mb-0">© 2024 Copyright: Employee Management System | Akik Hossain</p>
+                    <p class="mb-0">© 2024 Copyright: Employee Management System | Mayur Kakde</p>
                 </div>
             </div>
         </div>
