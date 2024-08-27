@@ -39,11 +39,11 @@
             justify-content: center;
             align-items: center; */
             position: relative;
-            background-image: url('{{ asset(' assets/image/service%203.jpg') }}');
+            background-image: url('{{ asset('assets/image/service3.jpg') }}');
             background-size: cover;
             /* background-position: center; */
         }
-
+        
         .overlay {
             position: absolute;
             top: 0;
@@ -76,7 +76,7 @@
     </style>
 </head>
 
-<body class="bg-dark" style="background-image: url('{{ asset('assests/image/login.jpg') }}'); background-size: cover;">
+<body class="bg-dark" style="background-image: url('{{ asset('assests/image/service 4.jpg') }}'); background-size: cover;">
     {{--
     <!-- Section: Design Block -->
     <section class="text-center">
@@ -183,9 +183,7 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="mt-3 simple-footer text-white fw-bold ">
-                            Copyright &copy; HRM System 2023 | Akik Hossain
-                        </div>
+                       
                     </div>
                 </div>
             </div>

@@ -7,24 +7,24 @@
                     <h3 class="footer-title">Contact Info </h3>
                     <div class="contact-info">
                         <span class="contact-icon"><i class="fa fa-map-marker"></i></span>
-                        <span class="contact-text">4 Embankment Drive Road,Sector-10 <br> Uttara, Dhaka 1230 </span>
+                        <span class="contact-text">4th Floor, Runwals Building, 401 B, Pune - Satara Rd, opp. Panchami Hotel, Mukund Nagar, Pune, Maharashtra 411037</span>
                     </div>
                     <div class="contact-info">
                         <span class="contact-icon"><i class="fa fa-phone"></i></span>
-                        <span class="contact-text">+8801701476579</span>
+                        <span class="contact-text"> 075888 33768</span>
                     </div>
                     <div class="contact-info">
                         <span class="contact-icon"><i class="fa fa-envelope"></i></span>
-                        <span class="contact-text">20103087@iubat.edu</span>
+                        <span class="contact-text">info@dreamsinternational.in</span>
                     </div>
                     <div class="ft-social">
                         <ul>
-                            <li><a href="https://www.facebook.com/akikhossain.abid"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/dreamsint"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li><a href="https://twitter.com/AKHS87"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/akikhossain/"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/dreamsinternational/"><i class="fa fa-linkedin"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://www.dreamsinternational.in/"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -46,8 +46,6 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <ul class="arrow">
                                 <li><a href="{{ route('contacts') }}">Contact Us</a></li>
-                                <li><a href="{{ route('client.list') }}">Partner</a></li>
-                                <li><a href="#">Notice</a></li>
                             </ul>
                         </div>
                     </div>
@@ -57,7 +55,7 @@
             <!-- footer-useful links -->
             <div class=" col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <div class="ft-logo"><img class="rounded"
-                        src="https://i.ibb.co/w7GnVBw/4101adc6-07bf-42cd-9723-b7baa76d9bef.jpg" alt=""></div>
+                        src="{{ asset('assests/image/logo.jpeg') }}" alt=""></div>
             </div>
             <!-- /.footer-useful links -->
         </div>
@@ -67,8 +65,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p>Copyright © All Rights Reserved 2024 Employee Management System by
-                        <a href="https://github.com/akikhossain" target="_blank" class="copyrightlink">Akik Hossain</a>
+                    <p>Copyright © All Rights Reserved 2024 Employee Management System by Mayur Kakde
+                      
                     </p>
                 </div>
             </div>
