@@ -115,40 +115,13 @@
                                 <li><span class="location-icon"><i
                                             class="fa fa-phone"></i></span><span> 075888 33768</span></li>
                                 <li><span class="location-icon"><i
-                                            class="fa fa-envelope"></i></span><span>20103087@iubat.edu</span></li>
+                                            class="fa fa-envelope"></i></span><span>info@dreamsinternational.in</span></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="location-block">
-                        <div class="location-content">
-                            <h3>HRHUB360, Sylhet</h3>
-                            <p>Srimangal,Moulvibazar District, Bangladesh</p>
-                            <ul>
-                                <li><span class="location-icon"><i
-                                            class="fa fa-phone"></i></span><span>+8801645476579</span></li>
-                                <li><span class="location-icon"><i
-                                            class="fa fa-envelope"></i></span><span>sylhet@gmail.com</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="location-block">
-                        <div class="location-content">
-                            <h3>HRHUB360, Chittagong</h3>
-                            <p>Pahartali, Chattogram Division, Bangladesh</p>
-                            <ul>
-                                <li><span class="location-icon"><i
-                                            class="fa fa-phone"></i></span><span>+8801445446529</span></li>
-                                <li><span class="location-icon"><i
-                                            class="fa fa-envelope"></i></span><span>pahartoli@gmail.com</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
+                
+                
             </div>
         </div>
     </div>
