@@ -69,7 +69,7 @@ return [
     |
     */
 
-    'timezone' => 'Asia/India',
+    'timezone' => 'Asia/Dhaka',
 
 
     /*

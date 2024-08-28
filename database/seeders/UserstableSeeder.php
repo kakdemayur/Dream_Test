@@ -15,7 +15,7 @@ class UserstableSeeder extends Seeder
      */
     public function run()
     {
-        $imagePath = 'https://i.ibb.co/1sspJdY/Akik-Hossain.jpg';
+        $imagePath = "{{ asset('assests\image\Kakde Mayur.jpg') }}";
 
         User::create([
             'name' => 'kakde',

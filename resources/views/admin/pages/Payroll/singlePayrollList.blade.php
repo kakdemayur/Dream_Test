@@ -22,7 +22,7 @@
                         <div class="text-center">
                             <img src="{{ asset('assests/image/logo.jpeg') }}" alt=""
                                 class="img-fluid rounded-circle mx-auto" style="max-width: 100px;">
-                            <h1 class="pt-0">HR HUB 360</h1>
+                            
                             <p class="pt-0">Employee Management System</p>
                         </div>
 
@@ -111,7 +111,7 @@
                     <hr>
                     <div class="row">
                         <div class="col-xl-10">
-                            <p>© 2023 Copyright: Employee Management System | Akik Hossain</p>
+                            <p>© 2023 Copyright: Employee Management System | Mayur Kakde</p>
                         </div>
                     </div>
                 </div>
